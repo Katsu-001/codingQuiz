@@ -1,0 +1,22 @@
+* {}
+
+body {}
+
+button {
+    background: radial-gradient(circle, rgb(147, 140, 240) 0%, rgba(56, 33, 187, 0.954) 100%);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 2em;
+    text-align: center;
+}
+
+header {
+    padding: 40px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
