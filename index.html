@@ -8,14 +8,33 @@
 </head>
 
 <body>
-    <header>
-        <h1>Coding Quiz Minigame!</h1>
-        <button class="start button">Start</button>
+    <header> 
+        <!-- Nav Bar with link to high scores and timer display-->
+        <a class="hs-link header-content" href="./highscores.html">View Highscores</a>
+        <h3 class="header-content">Time: <span id="timer">00</span></h3>
     </header>
 
     <main>
-        <section>
-            <div></div>
+        <section class="quiz-box">
+
+            <!-- Start page for quiz -->
+            <div>
+
+            </div>
+
+            <!-- Questions section -->
+            <div id="questions">
+                <h2 id="question-title">Coding Question?</h2>
+                <div id="choices">
+                    <button id ="choice1">Choice 1</button>
+                    <button id ="choice2">Choice 2</button>
+                    <button id ="choice3">Choice 3</button>
+                    <button id ="choice4">Choice 4</button>
+                </div>
+            </div>
+
+            <!-- End Section -->
+
         </section>
     </main>
     <script src="assets/js/script.js"></script>
