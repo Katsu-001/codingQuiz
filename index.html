@@ -19,11 +19,13 @@
 
             <!-- Start page for quiz -->
             <div>
-
+                <h1>Coding Quiz!</h1>
+                <p class="p-menu">Answer these coding questions within the time limit. Wrong answers will deduct your time by ten seconds!</p>
+                <button id="start-button" class="button-style">Start Quiz</button>
             </div>
 
             <!-- Questions section -->
-            <div id="questions">
+            <div id="questions" class="hide">
                 <h2 id="question-title">Coding Question?</h2>
                 <div id="choices">
                     <button id ="choice1">Choice 1</button>
@@ -34,6 +36,12 @@
             </div>
 
             <!-- End Section -->
+            <div id="end-screen" class="hide">
+                <h1>All done!</h1>
+                <p class="p-menu">Your final score is <span id="final-score">00</span>.</p>
+                <p class="p-menu">Enter initials: <input type="text" id="initials" maxlength="3" /></p>
+                <button id="submit-button">Submit</button>
+            </div>
 
         </section>
     </main>

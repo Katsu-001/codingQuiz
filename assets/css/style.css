@@ -25,6 +25,10 @@ button {
     color: var(--white)
 }
 
+.p-menu {
+    font-size: large;
+    
+}
 
 .header-content {
     color: var(--primary);
@@ -40,13 +44,15 @@ button {
     width: 800px;
     max-width: 80%;
     padding: 20px;
+    text-align: center;
 }
 
 .hs-link:hover {
     color: var(--secondary);
 }
 
-.answer-button {
-    margin: 10px;
-    padding: 5px 10px;
+
+/* used class to hide content */
+.hide {
+    display: none;
 }
