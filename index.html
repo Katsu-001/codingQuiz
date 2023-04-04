@@ -3,8 +3,8 @@
 
 <head>
     <title>Coding Quiz!</title>
-    <link rel="stylesheet" href=".assets/csss/reset.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
@@ -18,7 +18,7 @@
         <section class="quiz-box">
 
             <!-- Start page for quiz -->
-            <div>
+            <div id="start-screen"  class="menu">
                 <h1>Coding Quiz!</h1>
                 <p class="p-menu">Answer these coding questions within the time limit. Wrong answers will deduct your time by ten seconds!</p>
                 <button id="start-button" class="button-style">Start Quiz</button>
@@ -27,25 +27,27 @@
             <!-- Questions section -->
             <div id="questions" class="hide">
                 <h2 id="question-title">Coding Question?</h2>
-                <div id="choices">
-                    <button id ="choice1">Choice 1</button>
-                    <button id ="choice2">Choice 2</button>
-                    <button id ="choice3">Choice 3</button>
-                    <button id ="choice4">Choice 4</button>
+                <div id="choices" class="choices">
+                    <button id ="choice1"  class="button-style  answer-button">Choice 1</button>
+                    <button id ="choice2"  class="button-style  answer-button">Choice 2</button>
+                    <button id ="choice3"  class="button-style  answer-button">Choice 3</button>
+                    <button id ="choice4"  class="button-style  answer-button">Choice 4</button>
                 </div>
             </div>
 
             <!-- End Section -->
-            <div id="end-screen" class="hide">
+            <div id="end-screen" class="manu hide">
                 <h1>All done!</h1>
                 <p class="p-menu">Your final score is <span id="final-score">00</span>.</p>
                 <p class="p-menu">Enter initials: <input type="text" id="initials" maxlength="3" /></p>
-                <button id="submit-button">Submit</button>
+                <button id="submit-button" class="button-style">Submit</button>
             </div>
-
+            <div id="feedback" class="feedback hide">
+                <p id="feedback">test</p>
+            </div>
         </section>
     </main>
-    <script src="assets/js/script.js"></script>
+    <script src="assets/script.js"></script>
 </body>
 
 </html>
