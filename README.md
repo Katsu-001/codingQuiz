@@ -1,37 +1,20 @@
-# codingQuiz
-timed game using JavaScript with questions about coding basics
+# Coding Quiz
 
-
-# <Your-Project-Title>
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Timed game using JavaScript with questions about coding basics. Uses Javascript for putting the high scores in local storage.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Follow the URL to the deployed application.
+Click the "Start Quiz" button to begin timer, and show questions.
+After completing all questions, enter your initials and Click submit to be brought to the high scores page. There you can clear locally stored high scores, or go back to retake the quiz.
+![Starting Page](assets/images/screenshot1.png)
+![Quiz Screen](assets/images/screenshot2.png)
+![High Score Page](assets/images/screenshot3.png)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+## URL
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+[Deployed URL](https://katsu-001.github.io/codingQuiz/)
+[GitHub Repo](https://github.com/Katsu-001/codingQuiz)
